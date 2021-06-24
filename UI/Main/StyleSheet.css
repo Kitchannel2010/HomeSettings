@@ -1,0 +1,72 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightskyblue;
+}
+.box input[type = "submit"] {
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    font-size: 23px;
+    color: #191919;
+    background: #ffff00;
+    border: 2.5px solid #191919;
+    border-radius: 7px;
+    padding: 3px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+.star-rating label {
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 2%;
+    left: 50%;
+}
+.star-rating input[type = "submit"] {
+    color: #191919;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 50%;
+    background: #fcba03;
+    border: 1.5px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.ui {
+    width: 95%;
+    height: 87%;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    align-items: center;
+    background-color: #2b4dab;
+}
+.browser img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 7%;
+    left: 3.5%;
+}
+.browser button{
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    top: 21%;
+    left: 1.5%;
+    font-size: 25px;
+    text-align: center;
+    background: #fcba03;
+    border: 1.5px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}

@@ -1,4 +1,4 @@
-﻿function validate() {
+function validate() {
     {
         var username = document.getElementById("user");
         var password = document.getElementById("pass");
@@ -15,7 +15,7 @@
         else if (username.value == "admin" && password.value == "admin") {
             swal("Welcome admin", "Login successfully!", "success")
             .then((value) => {
-                window.location = "../UI/Main/admin.html"
+                window.location = "../Two Factor Authentication/index.php"
             });
         }
         else

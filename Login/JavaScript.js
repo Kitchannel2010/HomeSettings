@@ -17,7 +17,7 @@ function validate() {
         else if (username.value == "admin" && password.value == "admin") {
             swal("Welcome admin", "Login successfully!", "success")
             .then((value) => {
-                window.location = "../UI/main/admin.html"
+                window.location = "../UI/Main/admin.html"
             });
         }
         else

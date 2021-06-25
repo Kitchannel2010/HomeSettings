@@ -17,7 +17,7 @@ function validate() {
         else if (username.value == "black" && password.value == "123") {
             swal("Welcome black", "Login successfully!", "success")
             .then((value) => {
-                window.location = "../Two Factor Authentication/index.php"
+                window.location = "../UI/Main/admin.html"
             });
         }
         else
